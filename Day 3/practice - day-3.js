@@ -132,8 +132,8 @@ const products = [
 
 //Create a new array containing only the names of products that are in stock.
 
-const productsNameInStock = products
-  .filter((product) => product.inStock)
-  .map((product) => product.name);
+  const productsNameInStock = products
+    .filter((product) => product.inStock)
+    .map((product) => product.name);
 
-console.log(productsNameInStock);
+  console.log(productsNameInStock);
